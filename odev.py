@@ -50,7 +50,7 @@ while True:
     mailgiris = input(" Kayıtlı mail adresinizi giriniz: ")
     sifregiris = input("Lütfen Sifrenizi giriniz: ")
 
-    if mailgiris == mail and sifregiris == giris:
+    if mailgiris == mail and sifregiris == sifre:
 
         print("Kullanıcı bilgileri dogru... ")
         
@@ -58,3 +58,5 @@ while True:
     else:
         
         print("Girdiginiz bilgiler hatalidir. Lütfen tekrar deneyiniz ! ")
+       
+      
